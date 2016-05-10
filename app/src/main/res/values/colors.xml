@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#8BC34A</color>
+
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textHintDisabled">#9e9e9e</color>
+    <color name="textOnColor">#fff</color>
+
+
+    <color name="white">#fff</color>
+
+    <color name="colorsArrayRed">#F44336</color>
+    <color name="colorsArrayPink">#FF4081</color>
+    <color name="colorsArrayPurple">#9C27B0</color>
+    <color name="colorsArrayDeepPurple">#7C4DFF</color>
+    <color name="colorsArrayIndigo">#3F51B5</color>
+    <color name="colorsArrayBlue">#448AFF</color>
+    <color name="colorsArrayLightBlue">#03A9F4</color>
+    <color name="colorsArrayCyan">#00BCD4</color>
+    <color name="colorsArrayTeal">#009688</color>
+    <color name="colorsArrayGreen">#4CAF50</color>
+    <color name="colorsArrayLightGreen">#8BC34A</color>
+    <color name="colorsArrayLime">#CDDC39</color>
+    <color name="colorsArrayYellow">#FFEB3B</color>
+    <color name="colorsArrayAmber">#FFC107</color>
+    <color name="colorsArrayOrange">#FF9800</color>
+    <color name="colorsArrayDeepOrange">#FF5722</color>
+    <color name="colorsArrayBrown">#795548</color>
+    <color name="colorsArrayGrey">#9E9E9E</color>
+    <color name="colorsArrayBlueGrey">#607D8B</color>
+
+</resources>
