@@ -26,7 +26,7 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
-    <pl.zayer.hmd.components.MessageView
+    <pl.coreorb.hmd.components.MessageView
         android:id="@+id/message_mv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

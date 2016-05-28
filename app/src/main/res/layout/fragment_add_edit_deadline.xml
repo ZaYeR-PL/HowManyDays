@@ -13,30 +13,35 @@
         android:scrollbars="vertical"
         android:orientation="vertical">
 
-        <pl.zayer.hmd.components.EditButtonIconHint
-            android:id="@+id/date_eb"
+        <pl.coreorb.selectiondialogs.views.SelectedItemView
+            android:id="@+id/date_scv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:hint="@string/fragment_add_edit_deadline_date_hint"
-            app:buttonIcon="@drawable/add_edit_deadline_date"
-            app:buttonText="May 7, 2016"/>
+            app:itemIcon="@drawable/add_edit_deadline_date"
+            app:itemName="May 7, 2016" />
 
-        <pl.zayer.hmd.components.EditButtonIconHint
-            android:id="@+id/icon_eb"
+        <pl.coreorb.selectiondialogs.views.SelectedItemView
+            android:id="@+id/icon_siv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:hint="@string/fragment_add_edit_deadline_icon_hint"
-            app:buttonIcon="@drawable/add_edit_deadline_icon_default"
-            app:buttonText="Pets"/>
+            app:itemName="Pets" />
 
-        <pl.zayer.hmd.components.EditButtonIconHint
-            android:id="@+id/color_eb"
+        <pl.coreorb.selectiondialogs.views.SelectedItemView
+            android:id="@+id/color_siv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:hint="@string/fragment_add_edit_deadline_color_hint"
-            app:buttonIcon="@drawable/add_edit_deadline_color"
-            app:buttonText="Black"
-            app:buttonIconTint="@color/colorPrimary"/>
+            app:itemIcon="@drawable/add_edit_deadline_color"
+            app:itemName="Black"
+            app:itemColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/text_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test" />
 
     </LinearLayout>
 
